@@ -11,7 +11,7 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: 'Virtual Internship Program',
+    title: 'Salesforce Developer Internship',
     company: 'Salesforce',
     date: 'Nov 2024 - Jan 2025',
     location: 'Online',
@@ -24,14 +24,14 @@ const experiences: ExperienceItem[] = [
     ]
   },
   {
-    title: 'MERN Workshop',
-    company: 'Datapro',
-    date: 'Aug - Sept 2024',
-    location: 'Offline',
+    title: 'Web Developer Intern',
+    company: 'Matric Services',
+    date: 'May - Jun 2024',
+    location: 'Remote',
     points: [
-      'Acquired strong skills in the MERN (MongoDB, Express.js, React, Node.js) stack, enabling full-stack web development proficiency.',
-      'Successfully built a project that integrates food reviews and nutritional insights using React.js and MongoDB.',
-      'Applied best practices in responsive design and user-centric functionalities to create a seamless user experience.'
+      'Worked as an Intern on a live project focused on delivering daily snackboxes and personalized healthy diet plans to customers.',
+      'Contributed to the development of full-stack features using the MERN (MongoDB, Express.js, React.js, Node.js) stack to support dynamic user interactions and real-time order management',
+      'Implemented responsive user interfaces with React.js and ensured smooth backend integration with Node.js and Express, while managing data through MongoDB.'
     ]
   }
 ];

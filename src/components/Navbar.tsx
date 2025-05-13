@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className="text-white font-bold text-xl">UB.</div>
+          <div className="text-white font-bold text-xl">UDAY</div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">

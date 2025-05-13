@@ -28,6 +28,24 @@ const projects: Project[] = [
       'Implemented restaurant search with filters based on location, cuisine, price, and images.',
       'Enabled restaurant listings with pagination and detailed restaurant information.'
     ]
+  },
+  {
+    title: 'Zomato Restaurant Search and Listing Application',
+    description: 'A MERN STACK-based project for restaurant discovery and filtering.',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+    points: [
+      'Implemented restaurant search with filters based on location, cuisine, price, and images.',
+      'Enabled restaurant listings with pagination and detailed restaurant information.'
+    ]
+  },
+  {
+    title: 'Zomato Restaurant Search and Listing Application',
+    description: 'A MERN STACK-based project for restaurant discovery and filtering.',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+    points: [
+      'Implemented restaurant search with filters based on location, cuisine, price, and images.',
+      'Enabled restaurant listings with pagination and detailed restaurant information.'
+    ]
   }
 ];
 

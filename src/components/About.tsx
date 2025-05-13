@@ -19,8 +19,7 @@ const About: React.FC = () => {
             isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}>
             <p className="text-gray-300 mb-6">
-              Hello! I'm Uday Prabhas, a Computer Science Engineering student at Gayatri Vidya Parishad College 
-              of Engineering, Visakhapatnam. I'm passionate about web development and building applications 
+              Hello! I'm Uday Prabhas, a Computer Science Engineering student. I'm passionate about web development and building applications 
               that solve real-world problems.
             </p>
             
