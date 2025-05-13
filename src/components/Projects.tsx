@@ -30,21 +30,26 @@ const projects: Project[] = [
     ]
   },
   {
-    title: 'Zomato Restaurant Search and Listing Application',
-    description: 'A MERN STACK-based project for restaurant discovery and filtering.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-    points: [
-      'Implemented restaurant search with filters based on location, cuisine, price, and images.',
-      'Enabled restaurant listings with pagination and detailed restaurant information.'
-    ]
-  },
+  title: "Lost and Found Application",
+  description: "A FULL STACK-based web application that enables users to report, find their belongings",
+  technologies: ["React", "Node.js", "Express", "MongoDB",'Machine Learning'],
+  points: [
+    "Developed lost and found item reporting with support for image uploads, location tagging, and feature extraction.",
+    "Implemented intelligent matching logic using cosine similarity on feature vectors to identify potential matches between lost and found items.",
+    "Enabled item listings with filtering based on city, item type and geolocation",
+    "Integrated email notifications to alert users of potential item matches for user engagement."
+  ]
+}
+,
   {
-    title: 'Zomato Restaurant Search and Listing Application',
-    description: 'A MERN STACK-based project for restaurant discovery and filtering.',
+    title: 'URL SHortener',
+    description: 'A MERN STACK-based project for shortening a length URL',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
     points: [
-      'Implemented restaurant search with filters based on location, cuisine, price, and images.',
-      'Enabled restaurant listings with pagination and detailed restaurant information.'
+      'Implemented to shorten any URL.',
+      'Provides analytics, QR and other visual representations regarding the URL.',
+      'Designed a user-friendly dashboard to manage and track all shortened URLs.',
+      'Ensured secure redirection and validation to prevent misuse or broken links.'
     ]
   }
 ];
