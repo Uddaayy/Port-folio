@@ -125,6 +125,8 @@ function App() {
   const [activeSection, setActiveSection] = useState('hero');
   const [isLoaded, setIsLoaded] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [navbarVisible, setNavbarVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     // Loading animation
@@ -134,6 +136,23 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Navbar visibility logic
+      if (currentScrollY < 10) {
+        // Always show navbar at the top
+        setNavbarVisible(true);
+      } else if (currentScrollY < lastScrollY) {
+        // Scrolling up
+        setNavbarVisible(true);
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Scrolling down and past 100px
+        setNavbarVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+
+      // Active section detection
       const sections = ['hero', 'about', 'education', 'projects', 'experience', 'skills', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
@@ -151,7 +170,7 @@ function App() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -293,8 +312,10 @@ function App() {
         }}
       />
 
-      {/* Navigation with enhanced effects */}
-      <nav className="fixed top-0 left-0 right-0 z-40 glass-effect bg-black/80 backdrop-blur-sm border-b border-blue-500/20 transition-all duration-500">
+      {/* Navigation with scroll behavior */}
+      <nav className={`fixed scroll-pt-0 top-0 left-0 right-0 z-40 glass-effect bg-blue/80 backdrop-blur-sm border-b border-blue-500/20 transition-all duration-500 ${
+        navbarVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
+      }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <AnimatedSection animation="fadeRight" delay={0}>
@@ -345,7 +366,7 @@ function App() {
           <AnimatedSection animation="scale" delay={300}>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent text-glow animate-gradient">
-                Borra Uday Prabhas
+                Uday Prabhas B
               </span>
             </h1>
           </AnimatedSection>
