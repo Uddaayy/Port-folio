@@ -190,7 +190,8 @@ function App() {
         "Automated email notifications for matching items",
         "ML-powered image and text analysis",
         "Return status tracking system"
-      ]
+      ],
+      url: "https://github.com/Uddaayy/lost-and-found.git"
     },
     {
       title: "Recipe Bookmark and Nutrition Application",
@@ -200,54 +201,60 @@ function App() {
         "Recipe bookmarking system",
         "Ingredient analysis",
         "Health benefits display"
-      ]
+      ],
+      url: "https://github.com/Uddaayy/Food.git"
     },
     {
-      title: "E-Commerce Dashboard",
-      description: "A full-featured admin dashboard for managing online store operations with real-time analytics and inventory management.",
-      technologies: ["React.js", "TypeScript", "Node.js", "PostgreSQL"],
+      title: "Zomato Restaurant Search and Listing Application",
+      description: "A MERN Stack based project for restaurant discovery and filtering.",
+      technologies: ["React.js", "TypeScript", "Node.js", "MongoDB"],
       features: [
-        "Real-time sales analytics",
-        "Inventory management system",
-        "Customer relationship management"
-      ]
+        "Search and filter restaurants by cuisine, price",
+        "Enabled listings with pagination",
+        "Provided detailed restaurant information"
+      ],
+      url: "https://your-lost-and-found-project-link.com"
     },
     {
-      title: "Task Management System",
-      description: "A collaborative project management tool with team collaboration features, deadline tracking, and progress visualization.",
-      technologies: ["React.js", "Express.js", "MongoDB", "Socket.io"],
+      title: "URL Shortener",
+      description:"A web application that converts lengthy URLs into customized, shortened links for easier navigation",
+      technologies: ["React.js", "Node.js", "MongoDB", "Tailwind"],
       features: [
-        "Real-time team collaboration",
-        "Deadline and milestone tracking",
-        "Progress visualization charts"
-      ]
+        "Custom URL generation",
+        "Link analytics dashboard",
+        "Responsive UI "
+      ],
+      url: "https://github.com/Uddaayy/ShortURL.git"
     },
     {
-      title: "Weather Forecast Application",
-      description: "A responsive weather application with location-based forecasts, weather alerts, and historical data visualization.",
-      technologies: ["React.js", "Weather API", "Chart.js", "Tailwind"],
+      title: "FoodConnect",
+      description: "FoodConnect is a specialized CRM system built to coordinate and manage stakeholders in the food donation ecosystem, including donors, partners, and beneficiaries.",
+      technologies: ["Salesforce CRM","Apex","SOQL","Triggers","Flows", "Lightning Web Components (LWC)"],
       features: [
-        "7-day weather forecasting",
-        "Severe weather alerts",
-        "Historical weather patterns"
-      ]
+  "Automated food donation tracking",
+  "Custom dashboards and reports",
+  "Workflow automation for donation approvals"
+],
+url: "https://github.com/Uddaayy/Salesforce-Virtual-Internship.git"
     },
     {
-      title: "Social Media Analytics Tool",
-      description: "A comprehensive analytics platform for tracking social media performance across multiple platforms with automated reporting.",
-      technologies: ["React.js", "Python", "FastAPI", "Redis"],
-      features: [
-        "Multi-platform data aggregation",
-        "Automated report generation",
-        "Engagement analytics dashboard"
-      ]
-    }
+  title: "DCVerse AI Dashboard",
+  description: "Tracks social media metrics across platforms with automated reports.",
+  technologies: ["React.js", "Tailwind"],
+  features: [
+    "Cross-platform data sync",
+    "Responsive design",
+    "Engagement insights dashboard"
+  ],
+  url: "https://github.com/Uddaayy/DCVerse.git"
+}
+
   ];
 
   const skills = {
-    "Programming Languages": ["C/C++", "JavaScript", "HTML/CSS", "SQL", "Java", "Python"],
-    "Libraries & Frameworks": ["React.js", "Express.js", "Node.js", "Flutter", "C++ STL", "OpenCV"],
-    "Tools & Technologies": ["VS Code", "Git", "GitHub", "MongoDB", "Postman"],
+    "Programming Languages": ["C/C++", "JavaScript", "HTML/CSS", "SQL", "TypeScript" ,"Java", "Python(Basics)"],
+    "Frameworks & Libraries":["Express.js","Flutter","React.js","C++ STL", "OpenCV"],
+    "Tools & Technologies": ["VS Code", "Git", "GitHub", "MongoDB","Node.js","Postman"],
     "Soft Skills": ["Self-learning", "Presentation", "Quick Socializing", "Team Collaboration"]
   };
 
@@ -321,7 +328,7 @@ function App() {
           <div className="flex justify-between items-center h-20">
             <AnimatedSection animation="fadeRight" delay={0}>
               <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent text-glow">
-                Uday Prabhas
+                UDAY
               </div>
             </AnimatedSection>
             <div className="hidden md:flex space-x-8">
@@ -382,7 +389,6 @@ function App() {
           <AnimatedSection animation="fadeUp" delay={900}>
             <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto transition-all duration-700">
               Passionate about creating innovative web solutions with modern technologies. 
-              Currently pursuing B.Tech in Computer Science Engineering with a CGPA of 9.08.
             </p>
           </AnimatedSection>
           
@@ -435,10 +441,10 @@ function App() {
               <div className="space-y-6">
                 <p className="text-lg text-gray-300 leading-relaxed transition-all duration-500 hover:text-gray-200">
                   I'm a passionate Computer Science Engineering student at Gayatri Vidya Parishad College of Engineering, 
-                  Visakhapatnam, with a strong foundation in full-stack web development and a keen interest in emerging technologies.
+                  Visakhapatnam, with a strong foundation in web development and a keen interest in emerging technologies.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed transition-all duration-500 hover:text-gray-200">
-                  With hands-on experience in the MERN stack and a CGPA of 9.08, I'm dedicated to creating innovative 
+                  With hands-on experience in the MERN stack and a CGPA of 8.91, I'm dedicated to creating innovative 
                   solutions that bridge the gap between technology and user experience. My journey includes internships, 
                   workshops, and multiple project developments that have shaped my technical expertise.
                 </p>
@@ -482,7 +488,7 @@ function App() {
                   </div>
                   <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-colors duration-300">
                     <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-                    <span className="text-gray-300">CGPA: 9.08/10</span>
+                    <span className="text-gray-300">CGPA: 8.91/10</span>
                   </div>
                   <div className="flex items-center gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-colors duration-300">
                     <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
@@ -528,7 +534,7 @@ function App() {
                   </div>
                   <div className="text-right">
                     <p className="text-lg text-blue-400 font-semibold">2022 - 2026</p>
-                    <p className="text-lg text-green-400 font-semibold animate-pulse">CGPA: 9.08</p>
+                    <p className="text-lg text-green-400 font-semibold animate-pulse">CGPA: 8.91</p>
                   </div>
                 </div>
                 
@@ -536,7 +542,7 @@ function App() {
                   <div>
                     <h4 className="text-lg font-semibold text-blue-300 mb-3">Key Coursework</h4>
                     <StaggeredContainer>
-                      {["Data Structures & Algorithms", "Database Management Systems", "Web Technologies", "Software Engineering"].map((course) => (
+                      {["Data Structures & Algorithms", "Database Management Systems", "Web Technologies", "Operating Systems"].map((course) => (
                         <div key={course} className="flex items-center gap-2 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
                           <div className="w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse"></div>
                           <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{course}</span>
@@ -548,7 +554,7 @@ function App() {
                   <div>
                     <h4 className="text-lg font-semibold text-blue-300 mb-3">Achievements</h4>
                     <StaggeredContainer>
-                      {["Consistently high academic performance", "Active in technical workshops", "Multiple project implementations"].map((achievement) => (
+                      {["Consistent academic performance", "Active in technical workshops", "Multiple project implementations"].map((achievement) => (
                         <div key={achievement} className="flex items-center gap-2 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
                           <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
                           <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{achievement}</span>
@@ -563,146 +569,193 @@ function App() {
         </div>
       </section>
 
-      {/* Projects Section with enhanced grid animations */}
       <section id="projects" className="py-20 bg-gradient-to-b from-black to-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection animation="fadeUp">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
-                <FolderOpen className="text-blue-400 animate-pulse" />
-                <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-                  Projects
-                </span>
-              </h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto mb-4 animate-gradient"></div>
-              <p className="text-gray-400 max-w-2xl mx-auto transition-colors duration-300 hover:text-gray-300">
-                A showcase of my technical projects demonstrating proficiency in full-stack development, 
-                machine learning, and modern web technologies.
-              </p>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <AnimatedSection animation="fadeUp">
+      <div className="text-center mb-16">
+        <h2 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
+          <FolderOpen className="text-blue-400 animate-pulse" />
+          <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+            Projects
+          </span>
+        </h2>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto mb-4 animate-gradient"></div>
+        <p className="text-gray-400 max-w-2xl mx-auto transition-colors duration-300 hover:text-gray-300">
+          A showcase of my technical projects demonstrating proficiency in full-stack development, 
+          machine learning, and modern web technologies.
+        </p>
+      </div>
+    </AnimatedSection>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {projects.map((project, index) => (
+        <AnimatedSection key={index} animation="scale" delay={index * 150}>
+          <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-6 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift h-full flex flex-col glass-effect group">
+            
+            <div className="flex items-start justify-between mb-4">
+              <h3 className="text-xl font-semibold text-blue-400 flex-1 text-glow group-hover:text-blue-300 transition-colors duration-300">
+                {project.title}
+              </h3>
+              {project.url && (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 flex-shrink-0 transform group-hover:scale-110 transition-all duration-300"
+                >
+                  <ExternalLink className="text-gray-400 hover:text-blue-400" size={20} />
+                </a>
+              )}
             </div>
-          </AnimatedSection>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
-              <AnimatedSection key={index} animation="scale" delay={index * 150}>
-                <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-6 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift h-full flex flex-col glass-effect group">
-                  <div className="flex items-start justify-between mb-4">
-                    <h3 className="text-xl font-semibold text-blue-400 flex-1 text-glow group-hover:text-blue-300 transition-colors duration-300">
-                      {project.title}
-                    </h3>
-                    <ExternalLink className="text-gray-400 hover:text-blue-400 transition-all duration-300 ml-2 flex-shrink-0 transform group-hover:scale-110" size={20} />
-                  </div>
-                  
-                  <p className="text-gray-300 mb-4 flex-grow transition-colors duration-300 group-hover:text-gray-200">
-                    {project.description}
-                  </p>
-                  
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-blue-300 mb-2">Key Features:</h4>
-                    <ul className="space-y-1">
-                      {project.features.map((feature, featureIndex) => (
-                        <li key={featureIndex} className="text-sm text-gray-400 flex items-start gap-2 transition-colors duration-300 hover:text-gray-300">
-                          <div className="w-1 h-1 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  
-                  <div className="flex flex-wrap gap-2 mt-auto">
-                    {project.technologies.map((tech, techIndex) => (
-                      <span 
-                        key={techIndex}
-                        className="px-2 py-1 bg-blue-600/20 text-blue-300 text-xs rounded-full border border-blue-500/30 transition-all duration-300 hover:bg-blue-600/30 hover:scale-105"
-                        style={{ transitionDelay: `${techIndex * 50}ms` }}
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </AnimatedSection>
-            ))}
+
+            <p className="text-gray-300 mb-4 flex-grow transition-colors duration-300 group-hover:text-gray-200">
+              {project.description}
+            </p>
+
+            <div className="mb-4">
+              <h4 className="text-sm font-semibold text-blue-300 mb-2">Key Features:</h4>
+              <ul className="space-y-1">
+                {project.features.map((feature, featureIndex) => (
+                  <li
+                    key={featureIndex}
+                    className="text-sm text-gray-400 flex items-start gap-2 transition-colors duration-300 hover:text-gray-300"
+                  >
+                    <div className="w-1 h-1 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="flex flex-wrap gap-2 mt-auto">
+              {project.technologies.map((tech, techIndex) => (
+                <span
+                  key={techIndex}
+                  className="px-2 py-1 bg-blue-600/20 text-blue-300 text-xs rounded-full border border-blue-500/30 transition-all duration-300 hover:bg-blue-600/30 hover:scale-105"
+                  style={{ transitionDelay: `${techIndex * 50}ms` }}
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </AnimatedSection>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Experience Section with timeline animations */}
-      <section id="experience" className="py-20 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection animation="fadeUp">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
-                <Briefcase className="text-blue-400 animate-pulse" />
-                <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-                  Experience
-                </span>
-              </h2>
-              <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto animate-gradient"></div>
+<section id="experience" className="py-20 bg-black">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <AnimatedSection animation="fadeUp">
+      <div className="text-center mb-16">
+        <h2 className="text-4xl font-bold mb-4 flex items-center justify-center gap-3">
+          <Briefcase className="text-blue-400 animate-pulse" />
+          <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+            Experience
+          </span>
+        </h2>
+        <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto animate-gradient"></div>
+      </div>
+    </AnimatedSection>
+
+    <div className="max-w-4xl mx-auto space-y-8">
+      {/* Matric Services */}
+      <AnimatedSection animation="fadeLeft" delay={200}>
+        <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-8 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift glass-effect border-animated">
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
+            <div>
+              <h3 className="text-2xl font-semibold text-blue-400 mb-2 text-glow">Web & App Development Intern</h3>
+              <p className="text-xl text-gray-300 mb-2 transition-colors duration-300 hover:text-gray-200">Matric Services</p>
+              <p className="text-gray-400">Remote</p>
             </div>
-          </AnimatedSection>
-          
-          <div className="max-w-4xl mx-auto space-y-8">
-            <AnimatedSection animation="fadeLeft" delay={200}>
-              <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-8 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift glass-effect border-animated">
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
-                  <div>
-                    <h3 className="text-2xl font-semibold text-blue-400 mb-2 text-glow">Web Development Intern</h3>
-                    <p className="text-xl text-gray-300 mb-2 transition-colors duration-300 hover:text-gray-200">Matric Services</p>
-                    <p className="text-gray-400">Remote</p>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-lg text-blue-400 font-semibold">May - Jun 2025</p>
-                  </div>
-                </div>
-                
-                <StaggeredContainer>
-                  {[
-                    "Contributed to the development of a web application facilitating healthy snack box delivery to schools",
-                    "Worked on both frontend and backend to enable order placement, tracking, and school-wise distribution",
-                    "Explored mobile app development by converting the web application into a cross-platform app using Flutter",
-                    "Collaborated remotely with a team, following weekly updates and using Git for version control"
-                  ].map((item, index) => (
-                    <div key={index} className="flex items-start gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
-                      <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
-                      <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{item}</span>
-                    </div>
-                  ))}
-                </StaggeredContainer>
-              </div>
-            </AnimatedSection>
-            
-            <AnimatedSection animation="fadeRight" delay={400}>
-              <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-8 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift glass-effect border-animated">
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
-                  <div>
-                    <h3 className="text-2xl font-semibold text-blue-400 mb-2 text-glow">MERN Workshop Participant</h3>
-                    <p className="text-xl text-gray-300 mb-2 transition-colors duration-300 hover:text-gray-200">Datapro</p>
-                    <p className="text-gray-400">Offline</p>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-lg text-blue-400 font-semibold">Aug - Sept 2024</p>
-                  </div>
-                </div>
-                
-                <StaggeredContainer>
-                  {[
-                    "Gained hands-on experience in web development using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
-                    "Implemented basic styling and layout features to ensure a clean and user-friendly interface",
-                    "Developed a dynamic web application featuring food reviews and nutritional insights",
-                    "Integrated React.js with MongoDB for real-time data handling"
-                  ].map((item, index) => (
-                    <div key={index} className="flex items-start gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
-                      <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
-                      <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{item}</span>
-                    </div>
-                  ))}
-                </StaggeredContainer>
-              </div>
-            </AnimatedSection>
+            <div className="text-right">
+              <p className="text-lg text-blue-400 font-semibold">May - Jun 2025</p>
+            </div>
           </div>
+
+          <StaggeredContainer>
+            {[
+              "Contributed to the development of a web application facilitating healthy snack box delivery to schools",
+              "Worked on both frontend and backend to enable order placement, tracking, and school-wise distribution",
+              "Explored mobile app development by converting the web application into a cross-platform app using Flutter",
+              "Collaborated remotely with a team, following weekly updates and using Git for version control"
+            ].map((item, index) => (
+              <div key={index} className="flex items-start gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
+                <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
+                <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{item}</span>
+              </div>
+            ))}
+          </StaggeredContainer>
         </div>
-      </section>
+      </AnimatedSection>
+
+      {/* Salesforce */}
+      <AnimatedSection animation="fadeRight" delay={300}>
+        <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-8 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift glass-effect border-animated">
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
+            <div>
+              <h3 className="text-2xl font-semibold text-blue-400 mb-2 text-glow">Salesforce Developer Intern</h3>
+              <p className="text-xl text-gray-300 mb-2 transition-colors duration-300 hover:text-gray-200">Salesforce</p>
+              <p className="text-gray-400">Online</p>
+            </div>
+            <div className="text-right">
+              <p className="text-lg text-blue-400 font-semibold">Nov 2024 - Jan 2025</p>
+            </div>
+          </div>
+
+          <StaggeredContainer>
+            {[
+              "Gained in-depth knowledge of Salesforce CRM, including customization, automation, and integration.",
+              "Worked on the FoodConnect project to build CRM solutions for food distribution and community support.",
+              "Developed scalable applications using Flow, Apex, SOQL, and Lightning Web Components (LWC).",
+              "Built real-world Salesforce apps with maintainable code and best practices.",
+              "Enhanced business workflows by delivering tailored CRM features aligned with organizational needs."
+            ].map((item, index) => (
+              <div key={index} className="flex items-start gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
+                <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
+                <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{item}</span>
+              </div>
+            ))}
+          </StaggeredContainer>
+        </div>
+      </AnimatedSection>
+
+      {/* Datapro */}
+      <AnimatedSection animation="fadeLeft" delay={400}>
+        <div className="bg-gradient-to-br from-blue-900/20 to-black/40 p-8 rounded-2xl border border-blue-500/20 hover:border-blue-400/40 transition-all duration-500 hover-lift glass-effect border-animated">
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
+            <div>
+              <h3 className="text-2xl font-semibold text-blue-400 mb-2 text-glow">MERN Workshop Participant</h3>
+              <p className="text-xl text-gray-300 mb-2 transition-colors duration-300 hover:text-gray-200">Datapro</p>
+              <p className="text-gray-400">Offline</p>
+            </div>
+            <div className="text-right">
+              <p className="text-lg text-blue-400 font-semibold">Aug - Sept 2024</p>
+            </div>
+          </div>
+
+          <StaggeredContainer>
+            {[
+              "Gained hands-on experience in web development using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
+              "Implemented basic styling and layout features to ensure a clean and user-friendly interface",
+              "Developed a dynamic web application featuring food reviews and nutritional insights",
+              "Integrated React.js with MongoDB for real-time data handling"
+            ].map((item, index) => (
+              <div key={index} className="flex items-start gap-3 p-2 rounded-lg hover:bg-blue-600/10 transition-all duration-300">
+                <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
+                <span className="text-gray-300 transition-colors duration-300 hover:text-gray-200">{item}</span>
+              </div>
+            ))}
+          </StaggeredContainer>
+        </div>
+      </AnimatedSection>
+    </div>
+  </div>
+</section>
+
 
       {/* Skills Section with animated skill cards */}
       <section id="skills" className="py-20 bg-gradient-to-b from-black to-gray-900">
@@ -892,7 +945,7 @@ function App() {
                   Borra Uday Prabhas
                 </p>
                 <p className="text-gray-400 transition-colors duration-300 hover:text-gray-300">
-                  © 2024 Built with React & Tailwind CSS
+                  © 2025 Built with React & Tailwind CSS
                 </p>
                 <p className="text-gray-500 text-sm transition-colors duration-300 hover:text-gray-400">
                   Designed with passion for clean code and exceptional user experience
