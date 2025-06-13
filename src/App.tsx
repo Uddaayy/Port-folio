@@ -274,8 +274,9 @@ function App() {
         .animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
         
         .glass-effect {
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(12px);
+          -webkit-backdrop-filter: blur(12px);
+          background-color: rgba(0, 0, 0, 0.7);
         }
         
         .hover-lift {
@@ -312,12 +313,12 @@ function App() {
         }}
       />
 
-      {/* Navigation with scroll behavior */}
-      <nav className={`pt-8 fixed scroll-pt-0 top-0 left-0 right-0 z-40 glass-effect bg-blue/80 backdrop-blur-sm border-b border-blue-500/20 transition-all duration-500 ${
+      {/* Navigation with scroll behavior - FIXED */}
+      <nav className={`fixed top-0 left-0 right-0 z-50 glass-effect border-b border-blue-500/20 transition-all duration-500 ${
         navbarVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-between items-center h-20">
             <AnimatedSection animation="fadeRight" delay={0}>
               <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent text-glow">
                 Uday Prabhas
@@ -345,8 +346,8 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero Section with enhanced parallax */}
-      <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Hero Section with enhanced parallax - FIXED */}
+      <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-black to-black animate-gradient"></div>
         
         {/* Floating background elements */}
@@ -855,17 +856,51 @@ function App() {
         </div>
       </section>
 
-      {/* Enhanced Footer */}
-      <footer className="py-8 bg-gray-900 border-t border-blue-500/20">
+      {/* Enhanced Footer - FIXED */}
+      <footer className="py-12 bg-gradient-to-t from-gray-900 to-black border-t border-blue-500/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection animation="fadeUp">
-            <div className="text-center">
-              <p className="text-gray-400 transition-colors duration-300 hover:text-gray-300">
-                © 2024 Borra Uday Prabhas. Built with React & Tailwind CSS.
-              </p>
-              <p className="text-gray-500 text-sm mt-2 transition-colors duration-300 hover:text-gray-400">
-                Designed with passion for clean code and user experience.
-              </p>
+            <div className="text-center space-y-4">
+              <div className="flex justify-center items-center gap-6 mb-6">
+                <a 
+                  href="mailto:udayprabhas005@gmail.com"
+                  className="p-3 bg-blue-600/20 rounded-full hover:bg-blue-600/30 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
+                >
+                  <Mail className="text-blue-400 hover:text-blue-300 transition-colors duration-300" size={20} />
+                </a>
+                <a 
+                  href="https://github.com/uddaayy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-blue-600/20 rounded-full hover:bg-blue-600/30 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
+                >
+                  <Github className="text-blue-400 hover:text-blue-300 transition-colors duration-300" size={20} />
+                </a>
+                <a 
+                  href="https://linkedin.com/in/uday-prabhas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 bg-blue-600/20 rounded-full hover:bg-blue-600/30 transition-all duration-300 transform hover:scale-110 hover:rotate-12"
+                >
+                  <Linkedin className="text-blue-400 hover:text-blue-300 transition-colors duration-300" size={20} />
+                </a>
+              </div>
+              
+              <div className="space-y-2">
+                <p className="text-gray-300 font-medium text-lg transition-colors duration-300 hover:text-blue-400">
+                  Borra Uday Prabhas
+                </p>
+                <p className="text-gray-400 transition-colors duration-300 hover:text-gray-300">
+                  © 2024 Built with React & Tailwind CSS
+                </p>
+                <p className="text-gray-500 text-sm transition-colors duration-300 hover:text-gray-400">
+                  Designed with passion for clean code and exceptional user experience
+                </p>
+              </div>
+              
+              <div className="pt-6">
+                <div className="w-20 h-0.5 bg-gradient-to-r from-blue-400 to-blue-600 mx-auto animate-gradient"></div>
+              </div>
             </div>
           </AnimatedSection>
         </div>
