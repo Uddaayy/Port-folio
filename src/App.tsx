@@ -313,7 +313,7 @@ function App() {
       />
 
       {/* Navigation with scroll behavior */}
-      <nav className={`pt-16 fixed scroll-pt-0 top-0 left-0 right-0 z-40 glass-effect bg-blue/80 backdrop-blur-sm border-b border-blue-500/20 transition-all duration-500 ${
+      <nav className={`fixed scroll-pt-0 top-0 left-0 right-0 z-40 glass-effect bg-blue/80 backdrop-blur-sm border-b border-blue-500/20 transition-all duration-500 ${
         navbarVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
