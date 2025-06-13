@@ -213,7 +213,7 @@ function App() {
         "Enabled listings with pagination",
         "Provided detailed restaurant information"
       ],
-      url: "https://your-lost-and-found-project-link.com"
+      url: "https://github.com/Uddaayy/Zomato-listing-searching.git"
     },
     {
       title: "URL Shortener",
