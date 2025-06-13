@@ -324,24 +324,25 @@ function App() {
                 Uday Prabhas
               </div>
             </AnimatedSection>
-            <AnimatedSection animation="fadeLeft" delay={200}>
-              <div className="hidden md:flex space-x-8">
-                {['About', 'Education', 'Projects', 'Experience', 'Skills', 'Contact'].map((item, index) => (
-                  <button
-                    key={item}
-                    onClick={() => scrollToSection(item.toLowerCase())}
-                    className={`text-sm font-medium transition-all duration-500 hover:text-blue-400 hover:scale-110 transform ${
-                      activeSection === item.toLowerCase() 
-                        ? 'text-blue-400 scale-110' 
-                        : 'text-gray-300'
-                    }`}
-                    style={{ transitionDelay: `${index * 50}ms` }}
-                  >
-                    {item}
-                  </button>
-                ))}
-              </div>
-            </AnimatedSection>
+            <div className="hidden md:flex space-x-8">
+  {['About', 'Education', 'Projects', 'Experience', 'Skills', 'Contact'].map((item, index) => (
+    <button
+      key={item}
+      onClick={() => scrollToSection(item.toLowerCase())}
+      className={`text-sm font-medium transform transition duration-500 hover:text-blue-400 hover:scale-110 ${
+        activeSection === item.toLowerCase()
+          ? 'text-blue-400 scale-110'
+          : 'text-gray-300'
+      }`}
+      style={{
+        transitionDelay: `${index * 50}ms`,
+      }}
+    >
+      {item}
+    </button>
+  ))}
+</div>
+
           </div>
         </div>
       </nav>
