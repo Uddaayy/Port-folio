@@ -1,2 +1,8 @@
-Borra Uday Prabhas
-Deployed: https://udayprabhas.vercel.app/
+# 🚀 Portfolio
+
+🎨✨💻🧠🌐📸🛠️👨‍💻🎯
+
+🔗 [Check it out here](https://udayprabhas.vercel.app/)
+
+🧾🌀🌈🧩📊⚡📱🌍💬
+
