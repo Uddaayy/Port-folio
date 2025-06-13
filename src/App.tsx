@@ -240,7 +240,7 @@ url: "https://github.com/Uddaayy/Salesforce-Virtual-Internship.git"
     {
   title: "DCVerse AI Dashboard",
   description: "Tracks social media metrics across platforms with automated reports.",
-  technologies: ["React.js", "Tailwind"],
+  technologies: ["React.js", "TypeScript","Tailwind"],
   features: [
     "Cross-platform data sync",
     "Responsive design",
