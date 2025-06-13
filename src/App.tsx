@@ -194,15 +194,15 @@ function App() {
       url: "https://github.com/Uddaayy/lost-and-found.git"
     },
     {
-      title: "Recipe Bookmark and Nutrition Application",
-      description: "A comprehensive MERN stack application for food enthusiasts to bookmark recipes and track nutritional information.",
-      technologies: ["MongoDB", "React.js", "Node.js", "Express"],
+      title: "URL Shortener",
+      description:"A web application that converts lengthy URLs into customized, shortened links for easier navigation",
+      technologies: ["React.js", "Node.js", "MongoDB", "Tailwind"],
       features: [
-        "Recipe bookmarking system",
-        "Ingredient analysis",
-        "Health benefits display"
+        "Custom URL generation",
+        "Link analytics dashboard",
+        "Responsive UI "
       ],
-      url: "https://github.com/Uddaayy/Food.git"
+      url: "https://github.com/Uddaayy/ShortURL.git"
     },
     {
       title: "Zomato Restaurant Search and Listing Application",
@@ -216,15 +216,15 @@ function App() {
       url: "https://github.com/Uddaayy/Zomato-listing-searching.git"
     },
     {
-      title: "URL Shortener",
-      description:"A web application that converts lengthy URLs into customized, shortened links for easier navigation",
-      technologies: ["React.js", "Node.js", "MongoDB", "Tailwind"],
+      title: "Recipe Bookmark and Nutrition Application",
+      description: "A comprehensive MERN stack application for food enthusiasts to bookmark recipes and track nutritional information.",
+      technologies: ["MongoDB", "React.js", "Node.js", "Express"],
       features: [
-        "Custom URL generation",
-        "Link analytics dashboard",
-        "Responsive UI "
+        "Recipe bookmarking system",
+        "Ingredient analysis",
+        "Health benefits display"
       ],
-      url: "https://github.com/Uddaayy/ShortURL.git"
+      url: "https://github.com/Uddaayy/Food.git"
     },
     {
       title: "FoodConnect",
