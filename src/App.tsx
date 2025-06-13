@@ -944,12 +944,6 @@ url: "https://github.com/Uddaayy/Salesforce-Virtual-Internship.git"
                 <p className="text-gray-300 font-medium text-lg transition-colors duration-300 hover:text-blue-400">
                   Borra Uday Prabhas
                 </p>
-                <p className="text-gray-400 transition-colors duration-300 hover:text-gray-300">
-                  © 2025 Built with React & Tailwind CSS
-                </p>
-                <p className="text-gray-500 text-sm transition-colors duration-300 hover:text-gray-400">
-                  Designed with passion for clean code and exceptional user experience
-                </p>
               </div>
               
               <div className="pt-6">
